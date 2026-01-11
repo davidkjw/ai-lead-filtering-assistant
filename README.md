@@ -7,8 +7,6 @@
 
 **AI-powered lead scoring and prioritization system for webinar and sales leads. Automatically categorizes leads based on response patterns and assigns priority scores for efficient follow-up.**
 
-![Lead AI Dashboard](https://via.placeholder.com/1200x600/1E3A8A/ffffff?text=AI+Lead+Filtering+Assistant+Dashboard)
-
 ## ✨ Key Features
 
 - **🤖 Intelligent Categorization**: Automatically classifies leads into Hot/Warm/Cold/Demo Scheduled categories
