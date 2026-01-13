@@ -106,6 +106,7 @@ Download high-priority leads only
 Categorization Logic
 
 def categorize_lead(remarks):
+
     # 1. Check for demo scheduled keywords
     if any(keyword in remarks for keyword in demo_keywords):
         return "Demo Scheduled"
