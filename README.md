@@ -9,6 +9,15 @@
 
 ---
 
+## 🎯 The "PoC-to-Production" Bridge
+
+Most lead sorting scripts are "brittle"—they crash when an Excel file has a missing column or a weirdly formatted row. This assistant was engineered to bridge that gap:
+
+* **🛡️ Data Resilience**: Implemented a "Needs Review" fallback layer. If a lead doesn't match any keyword or has corrupted text, the system flags it for human eyes rather than dropping it or crashing the pipeline.
+* **⚡ Vectorized Logic**: Instead of slow Python loops, the scoring engine leverages **Pandas vectorization**, allowing it to process thousands of leads in under a second.
+* **⚙️ UI-Driven Customization**: Built a sidebar interface so non-technical sales managers can update "Hot" and "Cold" keywords on the fly without ever touching the source code.
+
+---
 
 ## 🏗️ How It Works: The Scoring Pipeline
 
@@ -30,15 +39,6 @@ The system evaluates lead quality based on a weighted scoring model. Scores are 
 ### 2. Analytics & Synthesis
 Once processed, the data is fed into an interactive dashboard that visualizes the **Lead Funnel**, allowing managers to see lead distribution by category and priority at a glance.
 
----
-
-## 🎯 The "PoC-to-Production" Bridge
-
-Most lead sorting scripts are "brittle"—they crash when an Excel file has a missing column or a weirdly formatted row. This assistant was engineered to bridge that gap:
-
-* **🛡️ Data Resilience**: Implemented a "Needs Review" fallback layer. If a lead doesn't match any keyword or has corrupted text, the system flags it for human eyes rather than dropping it or crashing the pipeline.
-* **⚡ Vectorized Logic**: Instead of slow Python loops, the scoring engine leverages **Pandas vectorization**, allowing it to process thousands of leads in under a second.
-* **⚙️ UI-Driven Customization**: Built a sidebar interface so non-technical sales managers can update "Hot" and "Cold" keywords on the fly without ever touching the source code.
 
 ---
 
@@ -90,7 +90,7 @@ To ensure the assistant scales for high-volume sales operations, it has been ben
 
 ## ⚖️ License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. 
 
 ---
 
