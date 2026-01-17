@@ -95,3 +95,5 @@ Distributed under the MIT License.
 ---
 
 **Developed by [David Kok]** – *Bridging the gap between raw sales data and revenue.*
+
+## ⭐ Love this tool? Give it a star on GitHub! ⭐
